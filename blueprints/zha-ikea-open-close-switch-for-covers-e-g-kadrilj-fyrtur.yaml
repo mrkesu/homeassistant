@@ -14,7 +14,7 @@ blueprint:
       selector:
         device:
           integration: zha
-          manufacturer: ["IKEA of Sweden", "KE"]
+#          manufacturer: ["IKEA of Sweden", "KE"] # Well that didn't work, so I'll just remove this line then...
           model: "TRADFRI open/close remote"
     cover:
       name: Cover
